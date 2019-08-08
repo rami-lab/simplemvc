@@ -1,0 +1,14 @@
+{
+    "name": "rami-lab/simplemvc",
+    "description": "Simple MVC",
+    "require": {
+        "twig/twig": "^2.11",
+        "altorouter/altorouter": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "rami-lab",
+            "email": "dvbdrm@gmail.com"
+        }
+    ]
+}
