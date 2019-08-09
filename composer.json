@@ -5,10 +5,17 @@
         "twig/twig": "^2.11",
         "altorouter/altorouter": "^1.2"
     },
+    "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "rami-lab",
             "email": "dvbdrm@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+    "psr-4": {
+      "smvc\\": "src/app"
+    }
+    }
 }
