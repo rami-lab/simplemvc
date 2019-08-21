@@ -46,7 +46,7 @@ class smvc    {
 
  public static function route(){
      self::$router->setBasePath('');
-         $match = self::$router->match();
+     $match = self::$router->match();
     if ($match) {
         $dispatcherInfos = explode('#', $match['target']);
         $controllerName = $dispatcherInfos[0];
@@ -60,6 +60,7 @@ class smvc    {
 
 
     } else {
+        
         die('ohhh');
         header("HTTP/1.0 404 Page Not Found");
         $controller = new \Controllers\MainController();

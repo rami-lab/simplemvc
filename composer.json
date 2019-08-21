@@ -1,6 +1,6 @@
 {
     "name": "rami-lab/simplemvc",
-    "description": "Simple MVC",
+    "description": "Simple MVC start",
     "require": {
         "twig/twig": "^2.11",
         "altorouter/altorouter": "^1.2"
@@ -15,7 +15,8 @@
     ],
     "autoload": {
     "psr-4": {
-      "smvc\\": "src"
-    }
+      "smvc\\": "src/"
+    } ,
+    "classmap": ["src/smvc.php"]
     }
 }
