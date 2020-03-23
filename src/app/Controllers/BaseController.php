@@ -11,9 +11,11 @@ protected $template='index.html' ;
  }
  function inittpl(){
     if(!$this->twig){
-     $loader = new \Twig_Loader_Filesystem(TEMPLATE_BASE_DIR);
-     $cache=['cache' => TEMPLATE_BASE_DIR.'/cache'];
-     $this->twig = new \Twig_Environment($loader ,$cache);
+     $loader = new \Twig\Loader\FilesystemLoader(TEMPLATE_BASE_DIR);
+	 //if cache needed
+     //$cache=['cache' => TEMPLATE_BASE_DIR.'/cache'];
+     //$this->twig = new \Twig\Environment($loader ,$cache);
+     $this->twig = new \Twig\Environment($loader);
     }
 }
 
