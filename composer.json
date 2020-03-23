@@ -2,8 +2,8 @@
     "name": "rami-lab/simplemvc",
     "description": "Simple MVC start",
     "require": {
-        "twig/twig": "^2.11",
-        "altorouter/altorouter": "^1.2"
+        "twig/twig": "^3.*",
+        "altorouter/altorouter": "^2.0"
     },
     "license": "MIT",
     "type": "project",
